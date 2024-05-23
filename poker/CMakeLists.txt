@@ -21,7 +21,7 @@ set(HEADERS
 
 add_executable(poker ${SOURCES} ${HEADERS})
 
-set(SFML_DIR "C:/Users/dmnag/OneDrive/Desktop/SFML-2.6.1/lib/cmake/SFML")
+set(SFML_DIR "C:/hui/zaeb/SFML-2.6.1/lib/cmake/SFML")
 
 find_package(SFML 2.6.1 REQUIRED COMPONENTS system window graphics network audio)
 
